@@ -1,12 +1,21 @@
-.Wrapper {
+.body {
+  width: 100%;
   font-family: cursive;
   font-style: oblique;
+  font-family: aleolight;
+}
+.wrapper {
+  display: flex;
+}
+.landing {
+  margin-left: 0%;
+  border-width: thin;
+  margin-top: 0%;
 }
 
 #menu {
    padding: 2px, 5px;
    background-color: transparent;
-   float: left;
    width: 20px;
    height: 24px;
    background: #F15A29;
@@ -29,8 +38,9 @@
    left: 130px;
    top: 130px;
  }
+
 .motto1 {
-   position: absolute;
+   position: fixed;
    font-family: aleolight;
    margin: auto;
    right: 140px;
@@ -42,7 +52,7 @@
    color: white;
 }
 .motto {
-    position:absolute;
+    position:fixed;
     margin: auto;
    font-family: aleolight;
    right: 140px;
@@ -54,43 +64,45 @@
    font-size: 47px;
    color: white;
 }
-.section2{
+.section2 {
   display: flex;
-  display: table;
-  max-width: 1400px;
 }
+.item, .foodtop,  {
+  height: 100px;
+  min-width: 100px;
+  flex-grow: 1;
+}
+
 .item1 {
-    order: 1;
     background-color: lightgrey ;
     width: 300px;
     padding: 25px;
-    flex: 1;
-    flex-flow: column;
+    display: table;
 }
 
 .item2 {
-  order: 1;
   background-color: #F15A29;
   width: 300px;
   padding: 25px;
-  flex: 1;
-  flex-flow: column;
+  display: table;
 }
 
 .foodtop {
   flex-flow: row;
   margin: auto;
-  flex: 1;
-  order: 3;
-
 }
 
-
 .fastfood2 {
-  background-color: white ;
-  border: 5px;
-  width: 300px;
-  padding: 25px;
+  padding: 20px;
   margin: auto;
-  flex-flow: column;
+  border-width: thin;
+  float: left
+}
+
+.fastfood {
+  position: relative;
+  padding: 20px;
+  margin: auto;
+  border-width: thin;
+  float: left;
 }
