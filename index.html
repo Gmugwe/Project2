@@ -2,15 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="js/bootstrap.min.js">
-    <link rel="stylesheet" href="/js/jquery.js">
-    <link rel="stylesheet" href="Style.css">
     <title>Anita's Kitchen</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="/css/bootstrap.min.css"><!--link to bootstrap-->
+    <link rel="text/javascript" href="js/bootstrap.min.js">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="Style.css"><!---personal customs-->
+
   </head>
   <body>
   <div class="Wrapper">
-
     <div class="section1">
       <div class="menu">
         <div id="menu">
@@ -23,48 +25,78 @@
       <img src="ip2/assets/backgrounds/landing.jpg" alt="picture of cake">
     </div><!---end of landing--->
       <img class="logo" src="ip2/assets/logoBig.png" alt="our logo">
-      <h1 class="motto1">We Provide The Best Food</h1>
-      <h1 class="motto">At The <strong>Right Price</strong></h1>
+      <h1 class="motto1">We Provide The Best Food<br>At The <strong>Right Price</strong></h1>
   </div><!---end of menu--->
   </div><!---end of section1--->
-
   <div class="section2">
-    <div class="item1"><h1>Happy Hour</h1></div>
-    <div class="item2"><h1>Party Time</h1></div>
-      <div class="foodtop"><img src="ip2/assets/foodtop/breakfast.jpg" alt="a cup of coffee"></div>
-      <div class="foodtop" ><img src="ip2/assets/foodtop/lunch.jpg" alt="lunch"></div>
-      <div class="foodtop"><img src="ip2/assets/foodtop/dinner2.jpg" alt="dinner"></div>
+    <div class="col-md-3">
+      <div class="happy">
+        <p>Happy Hour</p>
+        </div>
+      <div class="party">
+        <p>Party Time</p>
+      </div>
+    </div>
+
+    <div class="col-md-3 breakfast">
+      <p>Breakfast</p>
+      <img src="ip2/assets/foodtop/breakfast.jpg" alt="a cup of coffee">
+    </div>
+
+    <div class="col-md-3 lunch">
+      <p>Lunch</p>
+      <img src="ip2/assets/foodtop/lunch.jpg" alt="lunch">
+    </div>
+
+    <div class="col-md-3 dinner">
+      <p>Dinner</p>
+      <img src="ip2/assets/foodtop/dinner2.jpg" alt="dinner">
+    </div>
   </div><!---end of Section2--->
 
+  <!---<div class="section 3">--->
+  <div class="row fast-food">
+    <div class="col-md-6 fastfood">
+      <div class="cake">
+        <img src="ip2/assets/fastFood1.jpg" alt="cake">
+      </div>
+        <div class="icecreame">
+          <img src="ip2/assets/fastFood2.jpg" alt="icecreame">
+        </div>
+      </div><!---end of fastfood--->
 
-<!--  <div class="section 3">
-    <div class="fastfood">
-        <img src="ip2/assets/fastFood1.jpg" style="position:absolute">
-        <img src="ip2/assets/fastFood2.jpg" style="position:absolute">
-    </div><!---end of fastfood--->
-<!--    <div class="fastfood2">
+    <div class="col-md-6 fastfood2">
       <h1>Fast Food</h1>
       <h2>You'll love our delicious fast food</h2>
       <p>Lorem ipsum dolor sit amet,
-        consectetur adipiscing elit. Nunc vel molestie augue.
-         Aliquam erat volutpat. Praesent gravida vehicula diam in ultrices.
+        consectetur adipiscing elit. Nunc vel molestie augue.<br>
+         Aliquam erat volutpat. Praesent gravida vehicula diam in ultrices.<br>
          Etiam efficitur erat sed finibus interdum.</p>
         <p>Veiw gallery</p>
-      </div><!---end of fastfood2---> >
+      </div><!---end of fastfood2--->
+    </div><!--row-->
 
+    <div class="row drink-1">
+    <div class="col-md-6 drinks">
       <h1>Drinks</h1>
       <h2>We also produce delicious drinks</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel molestie augue.
-         Aliquam erat volutpat. Praesent gravida vehicula diam in ultrices.
-         Etiam efficitur erat sed finibus interdum. Aenean fermentum nec metus volutpat iaculis.
-         Integer nec odio ornare, blandit magna vel, porttitor ex.
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Nunc vel molestie augue.
+         Aliquam erat volutpat.<br> Praesent gravida vehicula diam in ultrices.<br>
+         Etiam efficitur erat sed finibus interdum.<br> Aenean fermentum nec metus volutpat iaculis.<br>
+         Integer nec odio ornare, blandit magna vel, porttitor ex.<br>
         Aenean in libero rutrum, vehicula sem a, egestas ipsum.</p>
-        <img src="ip2/assets/drink1.jpg" alt="drinks">
         <p>Veiw gallery</p>
-      </div><!---end of section 3--->
+      </div><!--drinks--->
 
+        <div class="col-md-6 drink">
+          <img src="ip2/assets/drink1.jpg" alt="drink">
+          <img src="ip2/assets/drink2.jpg" alt="drink">
+        </div><!---drinks1-->
 
-        <div class="section 4">
+      </div><!--row-->
+      <!--</div>end of section 3--->
+        <!--<div class="section 4">--->
+        <div class="row Buger">
           <img src="ip2/assets/backgrounds/foodsBg.jpg" alt="food">
         <h1>Fast Food</h1>
           <img src="ip2/assets/fastfood/chickenBurger.jpg" alt="buger">
@@ -74,9 +106,8 @@
           <img src="ip2/assets/drink2.jpg" alt="drinks">
           <h1>chicken</h1>
           <h1>rice</h1>
+        </div>
        </div><!--end of section 4--->
-
-
       <div class="section 5">
         <h3>Our customers</h3>
           <img src="ip2/assets/customers/p1.png" alt="picture of our customer">
@@ -89,14 +120,11 @@
           <p>Proin pulvinar erat libero, in porta velit sollicitudin ac.</p>
           <p>  Proin dapibus mauris at augue aliquam, a gravida metus pulvinar.</p>
       </div><!---end of section 5--->
-
-
       <div class="section 6">
         <img src="ip2/assets/backgrounds/subscribe.jpg" alt="food">
       </div><!---end of section 6-->
 
       <!---insert footer--->
-
 </div><!---end of wrapper--->
   </body>
 </html>

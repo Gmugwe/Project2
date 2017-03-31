@@ -1,12 +1,16 @@
-# Independent Project
+Author name
+ I am Grace Mugwe.
 
-## Instructions
-  1) Please fork the Moringa School **mpft1-ip** repo to your own account.
+Project name
+My project is named Project 2.
 
-  2) Clone **your forked repo** to your own machine.`
+Description of project
+The project attempts to make a web page for a company called Anita"s kitchen.
 
-  3) Complete the independent project.
+Note:
+Chrome browser recommended
 
-  4) Push your commits up to your forked repo.
-  
-  5) Send the link pointing to your repo to your Technical mentor via *slack*
+Contact.
+Mobile:+254725393345
+site: https://gabriel-ok.github.io/
+email: ggmugwe@gmail.com
