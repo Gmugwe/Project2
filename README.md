@@ -12,5 +12,5 @@ Chrome browser recommended
 
 Contact.
 Mobile:+254725393345
-site: https://gabriel-ok.github.io/
+site: https://gmugwe.github.io/
 email: ggmugwe@gmail.com
